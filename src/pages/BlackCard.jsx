@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import BlackCardImg from "../../assets/cardB.png";
+import BlackCardImg from "../assets/cardB.png";
 
 
 export const BlackCard = () => {

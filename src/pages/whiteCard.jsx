@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import WhiteCardImg from "../../assets/cardA.png";
+import WhiteCardImg from "../assets/cardA.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
