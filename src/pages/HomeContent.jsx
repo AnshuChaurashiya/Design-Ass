@@ -8,10 +8,10 @@ import Navbar from '../components/Header/Navbar'
 const HomeContent = () => {
     return (
         <>
-            <div className=" w-full lg:min-h-screen overflow-hidden z-0">
+            <div className=" w-full  overflow-hidden z-0">
 
                 <img
-                    className="md:w-[19%] w-[30%] absolute left-[30%] rotate-[20deg] -rotate-z-[80deg] -top-[10%] md:-top-44"
+                    className=" md:w-[205] w-[240px] hidden sm:block absolute left-[30%] rotate-[20deg] -rotate-z-[80deg] -top-[12%] overflow-hidden lg:-top-[25%] md:-top-[27%]"
                     src={TopCard} alt="" />
 
 
@@ -41,7 +41,7 @@ const HomeContent = () => {
                     </div>
 
                     <img
-                        className="w-[19%] absolute right-[23%] rotate-[20deg] -rotate-z-[80deg] bottom-[35%] md:bottom-[27%] lg:-bottom-96"
+                        className="md:w-[20%] hidden sm:block w-[150px] absolute right-[10%] rotate-[20deg] -rotate-z-[80deg] bottom-[20%] md:-bottom-[22%] lg:-bottom-96"
                         src={BottomCard} alt="" />
 
                 </div>

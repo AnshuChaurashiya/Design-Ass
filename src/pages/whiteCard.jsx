@@ -40,7 +40,7 @@ const WhiteCard = () => {
 
     return (
         <>
-            <div className="w-full lg:h-screen overflow-hidden flex justify-center flex-wrap-reverse p-10 md:p-0 gap-32 items-center bg-white text-black">
+            <div className="w-full  overflow-hidden flex justify-center flex-wrap-reverse p-10 md:p-0 gap-32 items-center bg-white text-black">
 
                 <img
                     ref={cardRef}

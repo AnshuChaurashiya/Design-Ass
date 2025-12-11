@@ -1,4 +1,4 @@
-
+ import Lenis from "@studio-freight/lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -7,20 +7,20 @@ import Testimonial from "./components/testimonial/Testimonial";
 import Brands from "./pages/Brands";
 import CardInfo from "./pages/Card-info";
 import CardCompare from "./pages/CardCompare";
-import { BlackCard } from "./pages/BlackCard";
-import WhiteCard from "./pages/whiteCard";
-import CustomerReviews from "./pages/CustomerReviews";
+ import CustomerReviews from "./pages/CustomerReviews";
 import HomeContent from "./pages/HomeContent";
 import Join from "./pages/Join";
+import { BlackCard } from "./pages/BlackCard";
+import WhiteCard from "./pages/whiteCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
- 
+
 
   return (
     <>
-      <div className="max-w-8xl m-auto overflow-hidden">
+      <div className="max-w-[1500px] m-auto overflow-hidden">
         <HomeContent />
         <CardInfo />
         <Testimonial />
